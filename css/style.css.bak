@@ -1,0 +1,339 @@
+﻿article,footer, header,nav {
+    display: block;
+}
+body{
+	font: 0.8em arial,sans-serif;
+	background:black url(../images/background.png) no-repeat bottom scroll;
+	color: #FFF;
+	
+}
+h1{
+	color:#FFFFFF;
+}
+
+P{
+	padding:0 0 0 0;
+	line-height: 1.7em;
+}
+main {
+  margin: 10px auto;
+  width: 1000px;
+  border-radius: 13px 13px 13px 13px;
+  -moz-border-radius: 13px 13px 13px 13px;
+  -webkit-border: 13px 13px 13px 13px;
+ 
+  
+}
+header{
+	margin-left:auto;
+	margin-right:auto;
+	
+	height:100px;
+	width:900px;
+	
+}
+#logo{
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+	float: left;
+    height: 100px;
+    padding: 0 0 5px 0;
+    width: 80px;
+}
+#logo h1 {
+    font: 400% 'Marko One',arial,sans-serif;
+  
+}
+#img{
+	 float:left;
+	 padding:37px 0 0 0;
+}
+article{
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	padding:80px 0 0 0;
+}
+article p{
+	padding:0 0 50px 0;
+	font: 25px 'Varela Round', arial, sans-serif;
+	text-align:left;
+	line-height: 1.5em;
+	
+}
+
+nav {
+	
+    float: right;
+    margin: 1px auto 0;
+    padding: 50px 0 0 0;
+    width: 650px;
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+ul li{
+	display:inline;
+}
+ul li a{
+	text-decoration:none;
+	padding:30px 20px 10px 10px;
+	font: 200% 'Varela Round', arial, sans-serif;
+	color:#ffffff;
+	
+}
+
+ul li a:focus{
+	color:#ffff66;
+}
+
+ul li a:hover{
+	color:#ffff66;
+}
+
+
+#photo{
+    padding: 40px;
+	position:relative;
+    width: 800px;
+	height:600px;
+	
+	
+}
+
+
+#photo  p{
+	font:150% 'Varela Round', arial, sans-serif;
+	width:400px;
+	float:left;
+	padding:20px 0 0 0;
+}
+#photo  img{
+	float:right;
+	
+}
+
+@keyframes myfirst
+{
+0%{background: transparent;
+	opacity: 0;
+	}
+
+100%{background: transparent;
+	opacity: 1;
+	}
+
+
+}
+
+@-moz-keyframes myfirst /* Firefox */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-webkit-keyframes myfirst /* Safari 和 Chrome */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-o-keyframes myfirst /* Opera */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+
+@keyframes dol
+{
+0%{background: transparent;
+	opacity: 0;
+	}
+
+100%{background: transparent;
+	opacity: 1;
+	}
+}
+@-moz-keyframes dol /* Firefox */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-webkit-keyframes dol /* Safari 和 Chrome */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-o-keyframes dol /* Opera */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+
+#intro
+{
+	width:900px;
+	height:400px;
+	text-align:center;
+	
+}
+#dolphin1
+{
+	
+	animation: dol 10s;
+	-moz-animation: dol 10s;	/* Firefox */
+	-webkit-animation: dol 10s;	/* Safari 和 Chrome */
+	-o-animation:dol 10s;	/* Opera */
+	top:600px;
+	right:80px;
+	position:absolute;
+}
+
+
+#intro h1 {
+    cursor: default;
+    margin-top: 50px;
+	font: 350% 'Varela Round', arial, sans-serif;
+	position:absolute;
+	top:200px;
+	right:400px;
+	
+}
+#intro h1 span{
+		animation: myfirst 5s;
+	-moz-animation: myfirst 5s;	/* Firefox */
+	-webkit-animation: myfirst 5s;	/* Safari 和 Chrome */
+	-o-animation: myfirst 5s;	/* Opera */
+}
+
+#wrapper{
+	width:1000px;
+	height:400px;
+	background: transparent url(../images/main.png);
+	border-radius: 13px 13px 13px 13px;
+  -moz-border-radius: 13px 13px 13px 13px;
+  -webkit-border: 13px 13px 13px 13px;
+	
+}
+#wrapper .work{
+	width:400px;
+	height:266px;
+	padding:50px 25px 50px 25px;
+	float:left;
+	opacity:1.0;
+	filter:alpha(opacity=100);
+
+
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+	
+}
+#wrapper .work a{
+		
+		-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+#wrapper .work a:link {color:black;}
+#wrapper .work a:visited {color:transparent;}
+
+#wrapper .work a:hover{
+	
+
+	-webkit-filter: blur(2px);
+	-moz--filter: blur(2px);
+	-o-transition:blur(2px);
+      -ms-transition:blur(2px);
+
+}
+ .siderbar{
+	width:450px;
+	height:400px;
+	float:left;
+	padding:35px 10px 0 10px;
+}
+.siderbar p{
+	padding:40px 0 0 20px;
+	font: 20px 'Varela Round', arial, sans-serif;
+	text-align:left;
+	line-height: 1.5em;
+}
+
+
+.pic {
+  height: 300px;
+  width: 450px;
+  overflow: hidden;
+  margin: 20px;
+
+
+  -webkit-box-shadow: 5px 5px 5px #111;
+  box-shadow: 5px 5px 5px #111;
+  float: left;
+}
+
+.pic:hover {
+  cursor: pointer;
+}
+ .side img {
+	margin-top: 0px;
+  -webkit-transition: margin 1s ease;
+     -moz-transition: margin 1s ease;
+       -o-transition: margin 1s ease;
+      -ms-transition: margin 1s ease;
+          transition: margin 1s ease;
+ }
+
+.side img:hover{
+	margin-top: -200px;
+ }
+
+footer {
+	
+	margin: 10px auto;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    font: 100% arial,sans-serif;
+    padding:20px 20px 5px 0;
+    width: 900px;
+}
+footer p {
+    animation: dol 10s;
+	text-align:right;
+}
+
