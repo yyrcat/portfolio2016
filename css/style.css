@@ -1,0 +1,306 @@
+﻿
+article,footer, header,nav {
+    display: block;
+}
+body{
+	font: 0.8em arial,sans-serif;
+	color:white;
+	margin:0;
+	overflow-x:hidden;
+	background-color:black;
+}
+h1{
+	color:white;
+}
+
+P{
+	padding:0 0 0 0;
+	line-height: 1.7em;
+}
+
+header{
+	position:fixed;
+	top:0;
+	right:0;
+	
+	
+}
+#logo{
+	position:fixed;
+	top:0;
+	left:1em;
+	background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 8em;
+    padding: 1.5em 0;
+    width: 5em;
+	
+}
+#logo h1 {
+	font-family:"Marko One", arial, sans-serif;
+	font-size:4em;
+	margin:0;
+}
+#img{
+	 position:fixed;
+	top:0;
+	left:7em;
+	 padding:2em 0;
+}
+
+
+nav {
+	
+    float:right;
+    margin: 1px auto 0;
+    padding: 3em 0;
+   
+	
+}
+
+ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+ul li{
+	
+	/*display:inline;*/
+	padding:1em 1em;
+}
+ul li a{
+	text-decoration:none;
+	
+	font-family:'Varela Round', arial, sans-serif;
+	font-size:2em;
+	color:white;
+	
+}
+
+ul li a:focus{
+	color:#ffff66;
+}
+
+ul li a:hover{
+	color:#ffff66;
+}
+
+
+#index{
+	margin:0;
+	width:100%;
+	height:50em;
+	text-align:center;
+	background-image:url(../images/background.png);
+	background-size:cover;
+	}
+	
+
+#index  span{
+	display:inline-block;
+	margin-top: 0.5em;
+	color:white;
+    cursor: default;
+	font-family:'Marko One', arial, sans-serif;
+	font-size:20em;
+	animation: intro 5s;
+	-moz-animation: intro 5s;	/* Firefox */
+	-webkit-animation: intro 5s;	/* Safari 和 Chrome */
+	-o-animation: intro 5s;	/* Opera */
+}
+
+
+@-moz-keyframes intro /* Firefox */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-webkit-keyframes intro /* Safari and Chrome */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+@-o-keyframes intro /* Opera */
+{
+from {background: transparent;
+	opacity: 0;
+	}
+to {background: transparent;
+	opacity: 1;
+	}
+}
+
+#work{
+	
+	width:100%;
+	
+	background-color:black;
+	padding:10em 8%;
+	/*padding:10em 15em;*/
+}
+/*.wrapper{
+	
+	margin:0 auto;
+	width:80%;
+	height:33em;
+	overflow:hidden;
+	zoom:1;
+	display:block;
+	
+}*/
+.col{
+	display:inline-block;
+	padding:2em;
+
+}
+
+.project{
+	width:30%;
+	margin:0 2em;
+}
+.project img{
+	width:100%;
+	height:100%;
+-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+.project img:hover{
+-webkit-filter: grayscale(100%);
+}
+
+.project p{
+display:inline-block;
+margin:0.5em 0;
+text-decoration:none;
+font-family:"Varela Round", arial, sans-serif;
+font-size:1.6em;
+color:white;
+
+}
+.project p:hover{color:#ffff66;}
+
+
+
+
+/*
+#about{
+	
+	width:100%;
+	height:40em;
+	
+	background-color:none;
+	
+	
+}
+
+
+#about  p{
+	
+	color:white;
+	font-family: 'Varela Round', arial, sans-serif;
+	font-size:1.5em;
+	width:80%;
+	margin:3em auto;
+	
+}*/
+
+.pic{
+	margin:0 auto;
+	border:1px solid white;
+	overflow:hidden;
+	border-radius:50%;
+}
+.focus{
+	margin:0 auto;
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+	
+	}
+.focus:hover{
+	border-radius:50%;
+	
+}
+
+.work_wrapper{
+	margin:0 auto;
+	width:80%;
+	
+	overflow:hidden;
+	zoom:1;
+	display:block;}
+	
+.work_pic{
+	width:50%;
+	
+	float:left;
+	padding-top:9em;
+}
+.work_pic img{width:100%; }
+.work_des{
+margin-left:55%;
+padding-top:9em;
+
+}
+
+.work_des p{
+font-family:"Varela Round", arial, sans-serif;
+font-size:1.5em;
+color:white;}
+
+
+
+
+ 
+
+footer {
+	width:100%;
+    font: 100% arial,sans-serif;
+    padding:20px 20px 5px 0;
+    
+}
+footer p {
+  
+	text-align:center;
+}
+@media screen and (max-width:600px){
+#logo h1 {
+	
+	font-size:3em;
+}
+ul li a{
+	font-size:1.5em;
+}
+#index  span{
+	font-size:10em;
+}
+#work{
+padding:2em 3%;}
+.project{width:initial;}
+#about  p{
+font-size:1em;
+}
+.work_pic,.work_des{
+float:none;
+margin:auto;
+}
+.work_pic{
+width:100%;
+}
+
+}
