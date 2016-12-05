@@ -402,18 +402,6 @@ body {
     text-shadow: 1px 3px 2px black; }
   #project ul {
     text-align: left; }
-  #project img {
-    -webkit-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -o-transition: all 1s ease;
-    transition: all 1s ease; }
-    #project img:hover {
-      -webkit-filter: grayscale(100%);
-      -ms-filter: grayscale(100%);
-      -moz-filter: grayscale(100%);
-      -o-filter: grayscale(100%);
-      filter: grayscale(100%); }
 
 .tab-frame {
   display: -webkit-box;
@@ -450,7 +438,8 @@ body {
 #project-2:checked ~ .tab .tab-label:nth-of-type(2),
 #project-3:checked ~ .tab .tab-label:nth-of-type(3),
 #project-4:checked ~ .tab .tab-label:nth-of-type(4),
-#project-5:checked ~ .tab .tab-label:nth-of-type(5) {
+#project-5:checked ~ .tab .tab-label:nth-of-type(5),
+#project-6:checked ~ .tab .tab-label:nth-of-type(6) {
   color: white;
   background: #3076CC;
   transition: background .3s linear; }
@@ -459,6 +448,7 @@ body {
   width: 65rem; }
 
 .tab-content {
+  position: relative;
   display: none;
   padding: 1em; }
   .tab-content h2 {
@@ -471,12 +461,27 @@ body {
   .tab-content span {
     display: inline-block;
     padding-left: .5em; }
+  .tab-content img {
+    -webkit-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    margin: 0 auto; }
+    .tab-content img:hover {
+      -webkit-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%); }
 
 #project-1:checked ~ .tab-content--display .tab-content:nth-of-type(1),
 #project-2:checked ~ .tab-content--display .tab-content:nth-of-type(2),
 #project-3:checked ~ .tab-content--display .tab-content:nth-of-type(3),
 #project-4:checked ~ .tab-content--display .tab-content:nth-of-type(4),
-#project-5:checked ~ .tab-content--display .tab-content:nth-of-type(5) {
+#project-5:checked ~ .tab-content--display .tab-content:nth-of-type(5),
+#project-6:checked ~ .tab-content--display .tab-content:nth-of-type(6) {
+  position: relative;
   display: block;
   background: #3076CC; }
 
